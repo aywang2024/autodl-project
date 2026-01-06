@@ -1,4 +1,4 @@
-智能金融投研分析助手
+<img width="1860" height="915" alt="beaf12e5-509c-45b1-94d5-ddf1ef62152d" src="https://github.com/user-attachments/assets/00ebb88d-f189-4e74-a213-a8faf4fc1b0f" />智能金融投研分析助手
 
 该项目基于 Qwen2.5-7B 模型，使用 vLLM 进行本地部署，并结合 RAG 技术实现了研报分析与数据检索，您可以重点看一下该项目的 README 和 Agent 编排逻辑。
 
@@ -16,6 +16,15 @@
 ！！！  31train.ipynb 代码可以跑的起来，但是有关查询股价的精准度有问题，应该是ai的幻觉，和他的历史记忆有关，第一次会使用工具去联网查询，后面就会随便编写数据，
 
 ！！！  已经在最新的Untitled.ipynb解决了该问题。
+
+可查询股票价格
+<img width="1860" height="915" alt="price" src="https://github.com/user-attachments/assets/e623924d-393a-48b0-b784-9c81bce0188f" />
+可查询股票新闻
+<img width="1860" height="915" alt="news" src="https://github.com/user-attachments/assets/4534ba8d-c2f0-4f4a-a762-23610e9dc8ed" />
+可查询RAG系统内资料
+<img width="1860" height="915" alt="RAG" src="https://github.com/user-attachments/assets/2a0fc778-1b58-47ab-bef7-b91728a02d26" />
+
+
 
 ## 🤖 模型服务部署 (Model Serving)
 本项目后端采用 **vLLM** 部署 **Qwen2.5-7B-Instruct** 模型，提供兼容 OpenAI 格式的高性能 API 接口，并针对 Agent 场景开启了工具调用（Tool Calling）支持。
