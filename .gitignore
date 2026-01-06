@@ -1,0 +1,9 @@
+models/
+project/models/
+project/chroma_db/
+data/
+__pycache__/
+*.pth
+*.safetensors
+*.bin
+.DS_Store
